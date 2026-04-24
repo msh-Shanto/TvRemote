@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0A0A0F"
+    android:padding="14dp">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="12dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TV REMOTE"
+            android:textColor="#6C63FF"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.12"/>
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disconnected"
+            android:textColor="#6B6B8A"
+            android:textSize="11sp"
+            android:layout_marginEnd="8dp"/>
+        <View
+            android:id="@+id/statusDot"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:background="@drawable/dot_shape"/>
+    </LinearLayout>
+
+    <!-- IP + Connect -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+        <EditText
+            android:id="@+id/etIp"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:hint="192.168.1.x  (TV IP)"
+            android:textColor="#E8E8F0"
+            android:textColorHint="#6B6B8A"
+            android:textSize="13sp"
+            android:background="@drawable/input_bg"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:inputType="textUri"
+            android:singleLine="true"
+            android:layout_marginEnd="8dp"/>
+        <Button
+            android:id="@+id/btnConnect"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:text="Connect"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:background="@drawable/btn_accent"
+            android:paddingStart="18dp"
+            android:paddingEnd="18dp"/>
+    </LinearLayout>
+
+    <!-- Log bar -->
+    <TextView
+        android:id="@+id/tvLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="> Enter TV IP then tap Connect"
+        android:textColor="#6B6B8A"
+        android:textSize="11sp"
+        android:fontFamily="monospace"
+        android:background="@drawable/surface_bg"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Tabs -->
+    <LinearLayout
+        android:id="@+id/tabBar"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="12dp">
+        <TextView android:id="@+id/tabRemote"
+            android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
+            android:text="Remote" android:gravity="center" android:textSize="12sp" android:textStyle="bold"
+            android:background="@drawable/tab_active" android:textColor="#FFFFFF" android:layout_marginEnd="4dp"/>
+        <TextView android:id="@+id/tabMouse"
+            android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
+            android:text="Mouse" android:gravity="center" android:textSize="12sp" android:textStyle="bold"
+            android:background="@drawable/tab_inactive" android:textColor="#6B6B8A" android:layout_marginEnd="4dp"/>
+        <TextView android:id="@+id/tabKeyboard"
+            android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
+            android:text="Keyboard" android:gravity="center" android:textSize="12sp" android:textStyle="bold"
+            android:background="@drawable/tab_inactive" android:textColor="#6B6B8A"/>
+    </LinearLayout>
+
+    <!-- Content panes -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none"
+        android:fillViewport="true">
+        <LinearLayout
+            android:id="@+id/paneContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+    </ScrollView>
+
+</LinearLayout>

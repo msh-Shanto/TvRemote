@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "com.tvremote.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.tvremote.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.tvremote.app-merged_res-31:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.tvremote.app-main-33:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.tvremote.app-merged_res-31:/drawable_btn_normal.xml.flat",
+        "source": "com.tvremote.app-main-33:/drawable/btn_normal.xml"
+    },
+    {
+        "merged": "com.tvremote.app-merged_res-31:/drawable_dot_shape.xml.flat",
+        "source": "com.tvremote.app-main-33:/drawable/dot_shape.xml"
+    },
+    {
+        "merged": "com.tvremote.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "com.tvremote.app-main-33:/mipmap-xhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.tvremote.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.tvremote.app-main-33:/mipmap-xxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.tvremote.app-merged_res-31:/drawable_btn_accent.xml.flat",
+        "source": "com.tvremote.app-main-33:/drawable/btn_accent.xml"
+    },
+    {
+        "merged": "com.tvremote.app-merged_res-31:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "com.tvremote.app-main-33:/mipmap-xhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.tvremote.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "com.tvremote.app-main-33:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.tvremote.app-merged_res-31:/drawable_trackpad_bg.xml.flat",
+        "source": "com.tvremote.app-main-33:/drawable/trackpad_bg.xml"
+    },
+    {
+        "merged": "com.tvremote.app-merged_res-31:/drawable_btn_red.xml.flat",
+        "source": "com.tvremote.app-main-33:/drawable/btn_red.xml"
+    },
+    {
+        "merged": "com.tvremote.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.tvremote.app-main-33:/mipmap-mdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.tvremote.app-merged_res-31:/drawable_key_mod_active.xml.flat",
+        "source": "com.tvremote.app-main-33:/drawable/key_mod_active.xml"
+    },
+    {
+        "merged": "com.tvremote.app-merged_res-31:/drawable_surface_bg.xml.flat",
+        "source": "com.tvremote.app-main-33:/drawable/surface_bg.xml"
+    },
+    {
+        "merged": "com.tvremote.app-merged_res-31:/drawable_input_bg.xml.flat",
+        "source": "com.tvremote.app-main-33:/drawable/input_bg.xml"
+    },
+    {
+        "merged": "com.tvremote.app-merged_res-31:/drawable_dot_green.xml.flat",
+        "source": "com.tvremote.app-main-33:/drawable/dot_green.xml"
+    },
+    {
+        "merged": "com.tvremote.app-merged_res-31:/drawable_btn_ok.xml.flat",
+        "source": "com.tvremote.app-main-33:/drawable/btn_ok.xml"
+    },
+    {
+        "merged": "com.tvremote.app-merged_res-31:/drawable_key_bg.xml.flat",
+        "source": "com.tvremote.app-main-33:/drawable/key_bg.xml"
+    },
+    {
+        "merged": "com.tvremote.app-merged_res-31:/drawable_tab_active.xml.flat",
+        "source": "com.tvremote.app-main-33:/drawable/tab_active.xml"
+    },
+    {
+        "merged": "com.tvremote.app-merged_res-31:/drawable_tab_inactive.xml.flat",
+        "source": "com.tvremote.app-main-33:/drawable/tab_inactive.xml"
+    },
+    {
+        "merged": "com.tvremote.app-merged_res-31:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.tvremote.app-main-33:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.tvremote.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.tvremote.app-main-33:/mipmap-hdpi/ic_launcher_round.xml"
+    }
+]

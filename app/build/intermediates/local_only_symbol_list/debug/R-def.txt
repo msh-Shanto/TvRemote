@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+drawable btn_accent
+drawable btn_normal
+drawable btn_ok
+drawable btn_red
+drawable dot_green
+drawable dot_shape
+drawable input_bg
+drawable key_bg
+drawable key_mod_active
+drawable surface_bg
+drawable tab_active
+drawable tab_inactive
+drawable trackpad_bg
+id btnConnect
+id etIp
+id paneContainer
+id statusDot
+id tabBar
+id tabKeyboard
+id tabMouse
+id tabRemote
+id tvLog
+id tvStatus
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.TVRemote
